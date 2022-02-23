@@ -1,0 +1,19 @@
+
+.intro-finfti{
+    color: #fff;
+}
+
+.readmore-body p{
+    color: grey;
+}
+.readmore-body h4{
+    font-weight: 600;
+}
+
+.read-img{
+    display: flex;
+    justify-content: center;
+  align-items: center;
+    height: 100%;
+    width: 100%;
+}

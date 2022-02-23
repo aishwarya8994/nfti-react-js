@@ -1,0 +1,382 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    justify-content: center;
+}
+
+.landing{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+
+
+position: relative;
+
+
+}
+
+.landing .acc-button{
+    border-radius: 30px;
+}
+
+
+
+
+.nft-image{
+border-radius: 80px;
+
+box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+justify-content: center;
+margin-top: 3rem;
+align-content: center;
+
+animation: bounce 0.8s;
+            animation-direction: alternate;
+            animation-timing-function: cubic-bezier(.5, 0.05, 1, .5);
+            animation-iteration-count: infinite;
+
+}
+
+@keyframes bounce {
+    from {
+        transform: translate3d(0, 0, 0);
+    }
+    to {
+        transform: translate3d(0, 200px, 0);
+    }
+}
+
+Image {
+    -webkit-animation-name: bounce;
+            -webkit-animation-duration: 0.5s;
+            -webkit-animation-direction: alternate;
+            -webkit-animation-timing-function: cubic-bezier(
+            .5, 0.05, 1, .5);
+            -webkit-animation-iteration-count: infinite;
+}
+
+
+@-webkit-keyframes bounce {
+    from {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+    to {
+        -webkit-transform: translate3d(0, 200px, 0);
+        transform: translate3d(0, 200px, 0);
+    }
+}
+
+.landing-section{
+    
+    height: 50%;
+    width: 100%;
+
+}
+
+.landing-heading {
+    font-size: 2.5rem;
+    color: #fff ;
+    
+}
+
+.landing-heading h1 {
+    text-shadow:
+    0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #5271ff,
+      0 0 82px #5271ff,
+      0 0 92px #5271ff,
+      0 0 102px #5271ff,
+      0 0 151px #5271ff;
+}
+
+.landing-info .landing-heading{
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 600;
+    align-items: center;
+    margin:0 auto;
+    justify-content: center;
+}
+ /* h1 span{
+    animation: flicker 1.5s infinite alternate; 
+} */
+h1 {
+    font-weight: 700;
+}
+.landing-info  p{
+    font-size: 1.2rem;
+justify-content: center;
+}
+
+.landing-info{
+    align-content: center;
+    justify-content: center;
+}
+/* Flickering animation */
+
+/* @keyframes flicker {
+    
+    0%, 18%, 22%, 25%, 53%, 57%, 100% {
+  
+        text-shadow:
+        0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #5271ff,
+      0 0 82px #5271ff,
+      0 0 92px #5271ff,
+      0 0 102px #5271ff,
+      0 0 151px #5271ff;
+    
+    }
+    
+    20%, 24%, 55% {        
+        text-shadow: none;
+    }    
+  } */
+
+ /* @keyframes pulsate {
+    
+    100% {
+  
+        text-shadow:
+        0 0 4px #fff,
+        0 0 11px #fff,
+        0 0 19px #fff,
+        0 0 40px #5271ff,
+        0 0 80px #5271ff,
+        0 0 90px #5271ff,
+        0 0 100px #5271ff,
+        0 0 150px #5271ff;
+    
+    }
+    
+    0% {
+  
+      text-shadow:
+      0 0 4px #fff,
+      0 0 10px #fff,
+      0 0 18px #fff,
+      0 0 38px #5271ff,
+      0 0 73px #5271ff,
+      0 0 80px #5271ff,
+      0 0 94px #5271ff,
+      0 0 140px #5271ff;
+  
+  }
+} */
+
+.landing-info  p{
+    text-align: center;
+    color: #fff ;
+    align-content: center;
+
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: 400;
+    height: 100vh;
+    
+}
+
+
+
+.about .card-about{
+background-color:black;
+width: 14rem;
+text-align: start;
+
+
+}
+
+.about .card-about:hover{
+    box-shadow: rgba(68, 44, 175, 0.25) 0px 54px 55px, rgba(72, 48, 207, 0.12) 0px -12px 30px, rgba(73, 83, 179, 0.12) 0px 4px 6px, rgba(14, 36, 160, 0.17) 0px 12px 13px, rgba(26, 47, 235, 0.09) 0px -3px 5px;
+    transform: scale(1.1);
+}
+
+.about .card-about .card-title{
+    color: orange;
+}
+
+.about .card-about p{
+color: blue;
+}
+
+.about .card-about .card-text{
+    color: #fff;
+}
+
+
+.product{
+    display: flex;
+    background-color: #03001e;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+
+
+}
+.product h2 span{
+    color: rgba(236, 94, 38, 0.993);
+
+}
+
+.product .card {
+    
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: #011f4b;
+    margin: auto;
+
+
+}
+
+.product .card:hover{
+    background-color: #08013f ;
+}
+
+
+.ico-info{
+    /* background-image: url("https://freellustrustrations.s3.us-east-2.amazonaws.com/free-images/thumbimg_75049575046thumbejpg.jpg"); */
+    height: 100vh;
+    object-fit: cover;
+    text-align: center;
+    font-weight: 400;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    display: flex;
+}
+
+.ico-info p{
+    font-size: 1.2rem;
+    color: #fff;
+
+}
+
+
+.ico-info , .lineup {
+    animation: 2s anim-lineUp ease-out 1s;
+
+}
+/* lineup class and keyframes */
+
+.ico-info .lineup{
+ color: #fff;
+ 
+  }
+
+  .ico-info .intro-img{
+      justify-content: center;
+      align-items: center;
+  }
+
+  @keyframes anim-lineUp {
+    0% {
+      opacity: 0;
+      transform: translateY(80%);
+    }
+    20% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  
+
+.social-icons{
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.navlinks{
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: #fff;
+
+}
+
+.tokenomics{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    vertical-align: middle;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.token-heading{
+    font-weight: 600;
+}
+
+.tokenomics .table{
+    color: #fff;
+    font-weight: 600;
+  backdrop-filter: saturate(180%) blur(2px);
+}
+
+/* key metrics */
+.key-metrics{
+    background-color: black;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.key-metrics .table{
+    color: #fff;
+    font-weight: 600;
+  background: rgba(63, 62, 62, 0.3);
+  backdrop-filter: saturate(150%) blur(5px);
+
+}
+
+/* roadmap */
+.roadmap{
+background-color:black;
+color: #fff;
+height: 100vh;
+}
+
+/* media query for devices */
+/* ipad */
+@media screen and (max-width : 768px){
+    .pie{
+        width: 200px;
+        height: 200px;
+}
+} 
+
+/* partners */
+
+.partners{
+    background-color: #08013f;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
